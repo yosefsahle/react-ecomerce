@@ -1,0 +1,165 @@
+:root {
+    --primarycolor :   #5c19fa;
+    --secondarycolor : #e94560;  
+    --primarybackground : white;
+    --secondarybackground : brown;
+}
+
+/* .header{
+    display: none;
+}
+.search{
+    display: none;
+}
+
+footer{
+    display: none;
+} */
+
+
+
+
+.login-container{
+    display: flex;
+    width: 65vw;
+    height: 75vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow-x: hidden;
+
+    box-shadow: -1px 4px 21px 12px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: -1px 4px 21px 12px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: -1px 4px 21px 12px rgba(0, 0, 0, 0.51);
+}
+
+.login-left{
+    width: 30vw;
+    height: 20vh;
+}
+
+.login-left>img{
+    width: 35vw;
+    height: 50vh;
+    margin-left: -3.5vw;
+}
+
+.login-left>h1{
+    text-align: center;
+    color: #0f3460;
+    font-size: 2vw; 
+}
+
+.login-left>p{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-right{
+    display: flex;
+    flex-direction: column;
+    padding: 7vw;
+    background-color: #0f3460;
+    margin-top: -1vw;
+
+}
+
+.login-right>form{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 5px;
+    margin-left: -4vh;
+}
+
+.login-right>form>h1{
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.login-input{
+    border: solid 2px white;
+    height: 2.5vw;
+    width: 26vw;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.login-btn{
+    width: 55%;
+    height: 7vh;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6vw;
+    color: #0f3460;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1vh;
+}
+
+.buttons>a{
+    text-align: center;
+}
+
+.login-btn:hover{
+    background-color: #0f3460;
+    border: solid 1px  white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buttons>a:hover{
+    color: var(--secondarycolor);
+    transition: all 0.5s ease;
+
+}
+
+.password-l-i{
+    margin-top: -28px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#i12{
+    display: none;
+}
+
+@media(max-width:720px){
+    .login-left{
+        display: none;
+    }
+
+    .login-right{
+        padding: 13vw;
+        margin: 0;
+
+    }
+}
+

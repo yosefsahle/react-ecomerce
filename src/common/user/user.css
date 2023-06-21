@@ -1,0 +1,69 @@
+:root {
+    --primarycolor :   #5c19fa;
+    --secondarycolor : #e94560;  
+    --primarybackground : white;
+    --secondarybackground : brown;
+  }
+
+.profile_img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+}
+.coverpic{
+    width: 90vw;
+    height: 30vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+.profilepic{
+    width: 12vw;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 8vw;
+    margin-top: -38vh;
+}
+
+.username{
+    color: white;
+    margin-left: 7vw;
+    margin-top: 2vh;    
+}
+
+.main_feeds{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    /* background-color: lightgray; */
+    border-radius: 15px;
+    margin-left: 5vw;
+}
+
+.left div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.left h4{
+    cursor: pointer;
+}
+.left h4:hover{
+    color: var(--secondarycolor);
+    transition: all ease 0.3s;
+}
+.main_page{
+    flex: 4;
+}
+
+h5{
+    margin-left: 100px;
+    color: white;
+}
